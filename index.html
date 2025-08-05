@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gitluv Floating Widget</title>
+    <link rel="stylesheet" type="text/css" href="gitluv.css">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="content">
+        <h1>🐙 Gitluv GitHub Actions Widget! 🐙</h1>
+        <p>Click the floating button to interact with GitHub</p>
+    </div>
+
+    <div class="github-floating-widget">
+        <div class="github-options" id="githubOptions">
+            <button class="github-option star" onclick="githubAction('star')" style="--delay: 1">
+                <i class="fas fa-star"></i>
+                <span class="tooltip">Star Repository</span>
+            </button>
+            <button class="github-option fork" onclick="githubAction('fork')" style="--delay: 2">
+                <i class="fas fa-code-branch"></i>
+                <span class="tooltip">Fork Repository</span>
+            </button>
+            <button class="github-option follow" onclick="githubAction('follow')" style="--delay: 3">
+                <i class="fas fa-user-plus"></i>
+                <span class="tooltip">Follow User</span>
+            </button>
+            <button class="github-option watch" onclick="githubAction('watch')" style="--delay: 4">
+                <i class="fas fa-eye"></i>
+                <span class="tooltip">Watch Repository</span>
+            </button>
+            <button class="github-option issue" onclick="githubAction('issue')" style="--delay: 5">
+                <i class="fas fa-exclamation-circle"></i>
+                <span class="tooltip">Create Issue</span>
+            </button>
+            <button class="github-option share" onclick="githubAction('share')" style="--delay: 6">
+                <i class="fas fa-share-alt"></i>
+                <span class="tooltip">Share Repository</span>
+            </button>
+            <button class="github-option clone" onclick="githubAction('clone')" style="--delay: 7">
+                <i class="fas fa-download"></i>
+                <span class="tooltip">Clone Repository</span>
+            </button>
+            <button class="github-option download" onclick="githubAction('download')" style="--delay: 8">
+                <i class="fas fa-file-archive"></i>
+                <span class="tooltip">Download ZIP</span>
+            </button>
+        </div>
+        <button class="github-button" id="githubButton" onclick="toggleGitHub()">
+            <i class="fab fa-github"></i>
+        </button>
+    </div>
+
+    <div class="success-animation" id="successAnimation">
+        <i class="fas fa-check"></i> Action completed!
+    </div>
+
+    <div class="confetti-container" id="confettiContainer"></div>
+    <script type="text/javascript" src="gitluv.js"></script>
+</body>
+</html> 
