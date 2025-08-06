@@ -29,7 +29,7 @@ A beautiful, interactive floating widget that provides quick access to common Gi
 
 1. **Download the files**:
    ```bash
-   git clone https://github.com/yourusername/gitluv.git
+   git clone https://github.com/tuxedosoft/gitluv.git
    cd gitluv
    ```
 
