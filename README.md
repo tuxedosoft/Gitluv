@@ -6,6 +6,8 @@ A beautiful, interactive floating widget that provides quick access to common Gi
 ![Version](https://img.shields.io/badge/Version-1.0.0-blue)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
+![Gitluv Screenshot](gitluv.png)
+
 ## Features
 
 - **Floating Action Button**: Elegant floating GitHub button with smooth animations
